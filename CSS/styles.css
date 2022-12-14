@@ -36,6 +36,8 @@ h2 {
     margin: 0px;
 }
 
+
+
 .header {
     padding-top: 46px;
 }
@@ -292,32 +294,43 @@ h2 {
     line-height: 1.3;
 }
 
-
-
 .icon-list {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 207px;
+    padding-bottom: 190px;
+    padding-left: 0px;
 }
+
 
 .icon-svg {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+    margin-right: 60px;
 }
 
-.icon-svg::before {
-    content: "";
+.icon-svg:last-child {
+    margin-right: 0px;
+}
+
+.icon-title::before {
     display: block;
-    background-size: contain;
-    background-color: #233000;
-    border-radius: 80px;
-    width: 160px;
-    height: 160px;
+    content: "";
+    width: 260px;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EBF0E4;
+    border-radius: 50%;
+    margin-bottom: 39px;
 }
 
 .icon-list-item1::before {
     background-image: url("../Images/Icon_fish.png");
-
 }
 
 .icon-list-item2::before {
@@ -325,5 +338,9 @@ h2 {
 }
 
 .icon-list-item3::before {
-    background-image: url("../Images/Icon_lemon.png");
+    background-image: url("../Images/Vector_lemon.png");
+}
+
+.icon-title {
+    margin-bottom: 39px;
 }
