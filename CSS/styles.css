@@ -1,6 +1,7 @@
 :root {
     --brand-color: #233000;
     --text-color: white;
+    --second-brand-color: #5E6600;
 }
 
 * {
@@ -329,6 +330,16 @@ h2 {
     margin-bottom: 39px;
 }
 
+.blog-list-item {
+    width: 50%;
+    margin-right: 40px;
+}
+
+.blog-list-item2 {
+    margin-right: 0px;
+    width: 50%;
+}
+
 .icon-list-item1::before {
     background-image: url("../Images/Icon_fish.png");
 }
@@ -343,4 +354,149 @@ h2 {
 
 .icon-title {
     margin-bottom: 39px;
+}
+
+.blog-list {
+    list-style-type: none;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.blog-container {
+    position: relative;
+
+}
+
+.blog-image1-span {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    min-width: 200px;
+    min-height: 60px;
+    background-color: var(--second-brand-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.8;
+}
+
+
+.blog-image1 {
+    width: 100%;
+}
+
+.blog-stats {
+    display: flex;
+    align-items: center;
+    margin-top: 68px;
+    margin-bottom: 48px;
+
+}
+
+.title {
+    border-bottom: 8px dotted black;
+    padding-bottom: 18px;
+
+}
+
+.blog-text {
+    margin-bottom: 46px;
+    margin-top: 16px;
+}
+
+.blog-stats-span {
+    margin-right: 9px;
+}
+
+.blog-stats-span:last-child {
+    margin-right: 0px;
+}
+
+.blog-box {
+    padding-left: 72px;
+    padding-bottom: 82px;
+    padding-right: 75px;
+}
+
+.link-icon::after {
+    display: block;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url("../Images/readmore.right-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+
+}
+
+.link-icon {
+    display: flex;
+
+
+}
+
+.recipe-title {
+    font-weight: 108px;
+    text-align: center;
+}
+
+.recipe-text {
+    text-align: center;
+}
+
+.recipe-list {
+    display: flex;
+    margin-top: 126px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+
+}
+
+.list-item {
+    margin-right: 60px;
+    position: relative;
+    width: 508px;
+    height: 710px;
+}
+
+
+.list-item span {
+    position: absolute;
+    top: 48px;
+    left: 40px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.list-item svg {
+    position: absolute;
+    top: 34px;
+    right: 48px;
+}
+
+.review-text {
+    background-image: url("../Images/”.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 192px;
+    width: 1200px;
+    padding-top: 118px;
+    padding-left: 246px;
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 1.3;
+}
+
+.review-portion {
+    display: flex;
+    padding-left: 246px;
+    margin-top: 86px;
+
 }
